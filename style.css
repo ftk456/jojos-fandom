@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    background-image: url("images/background_wallpaper.jpg");
+    background-repeat: no-repeat;
+    z-index: -100;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "SF-Fedora";
+    src: url("SF-Fedora.ttf");
+}
+
+#jojoheader {
+    position: relative;
+    margin: -10px;
+    padding: 1vw 40vw;
+    color: rgb(212, 58, 10);
+    background-color: rgb(22, 70, 146);
+    font-family: "SF-Fedora";
+    font-size: large;
+    display: inline-block;
+    text-shadow: rgb(0, 0, 0) 4px 4px 8px;
+}
+
+#jojofooter {
+    position: relative;
+    margin: -10px;
+    background-color: rgb(22, 70, 146);
+    padding: 0.3vw 40vw;
+}
+
+#corps {
+    background-color: rgba(13, 116, 134, 0.8);
+    border-radius: 25px;
+    padding: 50px 20px;
+    margin: 30px 20px;
+    position: relative;
+    display: block;
+}
+
+#navigator {
+    margin: 20px 30px 80px 200px;
+    font-size: larger;
+    border-style: double;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    font-family: "DM Serif Display", sans-serif;
+    /*color: rgb(102, 11, 124);*/
+}
+
+#saisons ul{
+    font-family: "Fitgree", sans-serif;
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+#imagesaisons {
+    position: relative;
+    display: block;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+img {
+    z-index: 50;
+    opacity: 1;
+}
+
+#personnages {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#persaison1 {
+    margin: 200px;
+}
+
+#persaison1 #image1 {
+    position: relative;
+    display: block;
+    width: 10vw;
+    float: left;
+    margin: 2vw;
+}
+
+#persaison1 p {
+    display: block;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#persaison2 p {
+    display: block;
+    position: relative;
+    /*margin-left: 50px;*/
+}
+
+#persaison2 #image2 {
+    position: relative;
+    display: block;
+    width: 15vw;
+    float: left;
+}
+
+#image3 {
+    position: relative;
+    display: block;
+    width: 20vw;
+}
+
+#image4 {
+    position: relative;
+    display: block;
+    width: 20vw;
+}
+
+#image5 {
+    position: relative;
+    display: block;
+    width: 20vw;
+}
+
+#image6 {
+    position: relative;
+    display: block;
+    width: 20vw;
+}
+
+#image7 {
+    position: relative;
+    display: block;
+    width: 20vw;
+}
+
+#image8 {
+    position: relative;
+    display: block;
+    width: 20vw;
+}
+
+#imageppminka {
+    position: relative;
+    display: block;
+    width: 20vw;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+
+#personnages ul {
+    font-size: larger;
+}
+
+#personnages ul li::before {
+  content: '';
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url('/images/fleche.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 0.5em -0.25em -1em;
+  font-family: "Fitgree", sans-serif;
+}
+
+#corps h2 {
+    display: block;
+    position: relative;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-family: "SF-Fedora";
+}

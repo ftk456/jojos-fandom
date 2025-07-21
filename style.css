@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     z-index: -100;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
 }
 
 #jojoheader {
@@ -36,7 +36,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#jojofooter p {
+#jojofooter p, #jojofooter a {
     display: flex;
     position: relative;
     justify-content: center;
@@ -47,13 +47,13 @@ body {
     background-color: rgba(13, 116, 134, 0.8);
     border-radius: 25px;
     padding: 50px 20px;
-    margin: 30px 20px;
+    margin: 50px 50px;
     position: relative;
     display: block;
 }
 
 #navigator {
-    margin: 20px 30px 80px 200px;
+    
     font-size: larger;
     border-style: double;
     position: relative;
@@ -63,7 +63,7 @@ body {
     /*color: rgb(102, 11, 124);*/
 }
 
-#saisons ul{
+#saisons ul, #jojofooter{
     font-family: "Fitgree", sans-serif;
 }
 
@@ -89,10 +89,7 @@ a:link {
     position: relative;
     display: block;
     max-width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: 50px;
+    margin: auto auto 50px auto;
 }
 
 #personnages div::after {
@@ -107,9 +104,10 @@ a:link {
 
 #personnages div {
     text-align: left;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: center;
+    margin-bottom: -40px;
 }
 
 #personnages img {
@@ -118,6 +116,7 @@ a:link {
     max-width: 200px;
     max-height: 200px;
     float: left;
+    margin: 30px 50px 10px 20px;
 }
 
 #imageppminka {
@@ -132,10 +131,6 @@ a:link {
 
 ul li {
   list-style: none;
-}
-
-#personnages img {
-    margin: 30px 50px 10px 20px;
 }
 
 #personnages ul, #saisons ul {

@@ -53,14 +53,13 @@ body {
 }
 
 #navigator {
-    
     font-size: larger;
     border-style: double;
-    position: relative;
-    display: inline-block;
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: "DM Serif Display", sans-serif;
-    /*color: rgb(102, 11, 124);*/
+    margin: 0px 30vw 0px 30vw;
 }
 
 #saisons ul, #jojofooter{
@@ -70,18 +69,21 @@ body {
 ul {
     list-style: none;
     margin-left: -30px;
-    margin-top: -10px;
 }
 
 a {
     text-decoration: none;
 }
 
-a:visited {
-    color: black;
+#histoire p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a:link {
+a:link, a:visited {
     color: black;
 }
 
@@ -119,34 +121,12 @@ a:link {
     margin: 30px 50px 10px 20px;
 }
 
-#imageppminka {
-    position: relative;
-    display: block;
-    width: 20vw;
-    margin-left: 120px;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: 15px;
-}
-
 ul li {
   list-style: none;
 }
 
 #personnages ul, #saisons ul {
     font-size: larger;
-}
-
-#personnages ol li::before {
-  content: '';
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  background-image: url('/images/fleche.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 0.5em -0.25em -1em;
-  font-family: "Fitgree", sans-serif;
 }
 
 #corps h2 {

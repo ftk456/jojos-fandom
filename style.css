@@ -29,7 +29,6 @@ body {
   display: block;
   position: relative;
   margin: -35px;
-  padding: 3vw 35vw;
   background-color: rgb(22, 70, 146);
   padding: 0.3vw 40vw;
   font-size: small;
@@ -37,7 +36,8 @@ body {
 }
 
 #jojofooter p,
-#jojofooter a {
+#jojofooter a,
+#jojoheader p {
   display: flex;
   position: relative;
   justify-content: center;
@@ -197,7 +197,7 @@ th {
   color: #000000;
 }
 
-tr:nth-child(even) {
+tr:nth-child(2n) {
   background-color: #f9f9f9;
 }
 
